@@ -27,7 +27,7 @@ And, you must add the following lines under the `<node>` tag:
 
 ## Usage
 ### Current setup
-Currently, the package runs time trials for every world in our [benchmarking dataset](https://www.cs.utexas.edu/~attruong/metrics_dataset.html), which was published alongside our [paper](https://arxiv.org/pdf/2008.13315.pdf) for the 2020 IEEE SSRR conference.
+Currently, the package runs time trials for every world in our [benchmarking dataset](https://www.cs.utexas.edu/~attruong/metrics_dataset.html), which was published alongside our [paper](https://arxiv.org/pdf/2008.13315.pdf) for the 2020 IEEE SSRR conference. Create a folder called "data" and extract the contents of the dataset to it. 
 
 ### Modifying the dataset
 This package can be adapted to run time trials for different datasets, though it has not been tested on any others, so significant modifications may be necessary. Currently, the requirements for such a dataset are that it includes .world files, path files (as .npy), and map files (as .yaml and .pgm), though map files are only necessary if working with map-nav.
