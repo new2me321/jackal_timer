@@ -105,6 +105,6 @@
   </node> -->
 
   <!-- Laserscan to PointCloud -->
-<include file="$(find jackal_nn)/launch/laserscan_to_pointcloud.launch"/>
+<include file="$(find jackal_BARN)/launch/laserscan_to_pointcloud.launch"/>
 
 </launch>
