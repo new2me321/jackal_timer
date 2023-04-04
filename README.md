@@ -5,7 +5,7 @@ This is a ROS package used to automate navigation trials in Gazebo. It was built
 ### Important information
 This package contains two methods for timing navigation trials: with map (map-nav) and without map (odom-nav). The master branch is set up with map nav, and the no-map branch is set up with odom nav.
 
-This package was developed on ROS melodic, though it seems to also work on ROS kinetic.
+This package was developed on ROS melodic, though it seems to also work on ROS kinetic. This package has been updated to support ROS Noetic. 
 
 ### Installation and dependencies
 To begin, clone this repository into a ROS workspace. Then, navigate to your ROS workspace and run `catkin_make`.
